@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+    <script defer src="/__/firebase/8.6.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/8.6.1/firebase-database.js"></script>
+  </head>
+  <body>
+    <header>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="#">Acerca del proyecto</a>
+            <ul class="submenu">
+            <li>Nombre: Jorge Aaron Hernandez Bustillos</a></li>
+            <li>Matricula: 329747</a></li>
+            <li>Nombre: Hugo Edibray Becerra Gandara</a></li>
+            <li>Matricula: 329532</a></li>
+            <li>Docente: Fernando Martinez Reyes</a></li>
+            <li>Nombre de la materia: Desarrollo Basado en Plataformas</a></li>
+            <li>Universidad Autonoma de Chihuahua, Campus 2</a></li>
+            </ul>
+          </li>
+      </ul>
+    </nav>
+
+    <div id="main-container">
+      <table style="width: 100%">
+        <tr>
+          <th>Resultados del ultimo partido</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td id="player1"></td>
+          <td id="player2"></td>
+        </tr>
+        <tr>
+          <td id="pun1"></td>
+          <td id="pun2"></td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDRIgyopYZ5V_NO1LQy-ZzUkxVYz-m7utM",
+        authDomain: "proyecto-debapla.firebaseapp.com",
+        databaseURL: "https://proyecto-debapla-default-rtdb.firebaseio.com",
+        projectId: "proyecto-debapla",
+        storageBucket: "proyecto-debapla.appspot.com",
+        messagingSenderId: "873514502764",
+        appId: "1:873514502764:web:a063483ad748b321556649",
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="res.js"></script>
+  </header>
+  </body>
+</html>
